@@ -1,0 +1,23 @@
+#footer {
+  background: var(--dark-blue);
+}
+
+.footer-title {
+  @apply border py-1 px-2 text-center rounded-full text-lg mb-4;
+}
+
+.footer-links {
+  @apply grid grid-cols-1 mx-9;
+}
+
+.link {
+  @apply flex items-center gap-4;
+}
+
+.footer-icon {
+  @apply border p-2 rounded-full mb-2 hover:bg-indigo-700 transition-all duration-300 hover:border-0;
+}
+
+.useful-link {
+  @apply hover:text-indigo-900;
+}

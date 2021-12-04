@@ -1,0 +1,13 @@
+section#subscribe {
+  background: url(../../assets/subscribe-bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.subscribe-title {
+  font-family: "Roboto-Light";
+}
+
+.social-icon {
+  @apply border mt-24 mb-10 p-3 rounded-full text-xl hover:border-indigo-800 cursor-pointer transition-all duration-300 hover:bg-indigo-800;
+}

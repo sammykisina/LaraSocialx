@@ -1,0 +1,106 @@
+@import "tailwindcss/base";
+@import "tailwindcss/";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(./fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: local("Roboto"), url(./fonts/Roboto/Roboto-Light.ttf) format("truetype");
+}
+
+:root {
+  font-family: "Roboto";
+  --dark-blue: #0a1930;
+  --light-blue: #1f93ff;
+
+  --color-white: #fff;
+  --dark-text: #333;
+  --form-button: #2da5ff;
+  --color-grey: #eae6eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+section {
+  width: 100%;
+  /* padding: 8rem 0; */
+}
+
+.holder {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Text styles */
+.u-text-small {
+  @apply text-base leading-6 font-light;
+}
+
+.u-text-dark {
+  color: var(--dark-text);
+}
+.u-text-light {
+  @apply text-white;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+/* Title */
+.u-title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+/* .u-title h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+  color: var(--dark-text);
+  margin: 1.5rem 0;
+}
+
+.u-title p {
+  width: 50%;
+  min-width: 40rem;
+  margin: 0 auto;
+  color: var(--dark-text);
+} */
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 100vh;
+  background: #edf2f7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 100vh;
+  border: 3px solid #edf2f7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}

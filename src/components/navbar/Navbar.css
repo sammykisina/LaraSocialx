@@ -1,0 +1,59 @@
+/* default */
+
+.navbar {
+  background: var(--dark-blue);
+}
+.logo {
+  @apply flex justify-center items-center;
+}
+
+.logo-text {
+  @apply text-lg font-semibold;
+}
+
+.logo-text {
+  color: var(--color-white);
+}
+
+.logo-text span {
+  @apply font-bold;
+}
+
+.logo-text span {
+  color: orangered;
+}
+
+.menu__icons {
+  @apply text-white text-2xl cursor-pointer;
+}
+
+.menu__icons > svg {
+  @apply hover:text-yellow-700;
+}
+
+.nav__links {
+  @apply hidden;
+}
+
+/* medium */
+@media screen and (min-width: 768px) {
+  .menu__icons {
+    @apply hidden;
+  }
+
+  .nav__links {
+    @apply flex text-white gap-4 items-center;
+  }
+
+  .nav__links a {
+    @apply text-xl  hover:text-yellow-700;
+  }
+}
+
+/* large */
+@media screen and (min-width: 1024px) {
+}
+
+/* x-large */
+@media screen and (min-width: 1280px) {
+}

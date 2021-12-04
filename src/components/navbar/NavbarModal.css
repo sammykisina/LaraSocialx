@@ -1,0 +1,77 @@
+/* default */
+.modal {
+  @apply z-50 rounded-md;
+}
+.modal > ul {
+  @apply grid grid-cols-2 py-6 px-2;
+}
+.modal {
+  background: var(--dark-blue);
+}
+
+.modal > ul > li {
+  @apply text-white text-lg cursor-pointer hover:bg-indigo-400 px-16 rounded-full hover:text-white;
+}
+
+#show,
+#hide {
+  @apply absolute left-0 top-20  w-11/12 mx-5;
+}
+
+#show,
+#hide {
+  transition: all 0.3s;
+}
+
+#show {
+  animation: slide-in 0.5s;
+}
+
+#hide {
+  left: -100%;
+  animation: slide-out 0.5s;
+}
+
+/* small */
+@media screen and (min-width: 640px) {
+  #show,
+  #hide {
+    @apply w-4/5 mx-16;
+  }
+}
+
+/* medium */
+@media screen and (min-width: 768px) {
+  .modal {
+    @apply hidden;
+  }
+}
+
+/* large */
+@media screen and (min-width: 1024px) {
+}
+
+/* x-large */
+@media screen and (min-width: 1280px) {
+}
+
+/* animations */
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100);
+  }
+}

@@ -1,0 +1,15 @@
+section#download {
+  background: linear-gradient(
+    90deg,
+    rgba(45, 165, 255, 1) 45%,
+    rgba(1, 223, 245, 1) 100%
+  );
+}
+
+.download-title {
+  font-family: "Roboto-Light";
+}
+
+.download-icon {
+  @apply border flex items-center py-2 px-3 sm:px-4 gap-2 w-48  justify-center rounded-md mt-5 cursor-pointer hover:text-indigo-600;
+}
