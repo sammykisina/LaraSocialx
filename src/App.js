@@ -1,5 +1,4 @@
 import "./App.css";
-
 import {
   Navbar,
   Header,
@@ -16,9 +15,9 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div class="w-full flex self-start flex-col mt-16">
+      <div className="w-full flex self-start flex-col mt-16">
         <div
-          class="w-full overflow-hidden flex flex-col"
+          className="w-full overflow-hidden flex flex-col"
           onClick={() => setShowMenu(false)}
         >
           <Header />

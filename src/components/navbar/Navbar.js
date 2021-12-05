@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { SiAnaconda } from "react-icons/si";
 import { HiMenuAlt1 } from "react-icons/hi";
@@ -16,9 +16,9 @@ function Navbar() {
   };
 
   return (
-    <div class="w-full  h-16 fixed top-0  z-40 navbar">
+    <div className="w-full  h-16 fixed top-0  z-40 navbar">
       <div className="h-full w-full flex justify-center">
-        <div class="w-full flex justify-between items-center mx-8 xl:mx-44">
+        <div className="w-full flex justify-between items-center mx-8 xl:mx-44">
           {/* logo */}
           <div className="logo">
             <SiAnaconda className="text-white text-2xl" />
