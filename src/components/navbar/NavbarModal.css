@@ -1,6 +1,6 @@
 /* default */
 .modal {
-  @apply z-50 rounded-md;
+  @apply z-50 rounded-md border -mt-4;
 }
 .modal > ul {
   @apply grid grid-cols-2 py-6 px-2;
