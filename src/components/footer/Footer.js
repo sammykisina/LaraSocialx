@@ -15,16 +15,16 @@ function Footer() {
         <div className="footer-box  col-span-1">
           <h4 className="footer-title">Useful Links</h4>
           <div className="footer-links">
-            <a href="#" className="useful-link">
+            <a href="#home" className="useful-link">
               About
             </a>
-            <a href="#" className="useful-link">
+            <a href="#home" className="useful-link">
               Learn
             </a>
-            <a href="#" className="useful-link">
+            <a href="#home" className="useful-link">
               Hosting
             </a>
-            <a href="#" className="useful-link">
+            <a href="#home" className="useful-link">
               Messenger
             </a>
           </div>
@@ -32,7 +32,7 @@ function Footer() {
         <div className="footer-box col-span-1">
           <h4 className="footer-title">Support</h4>
           <div className="footer-links">
-            <a href="#">
+            <a href="#home">
               <span className="link">
                 <span className="footer-icon">
                   <BiHelpCircle />
@@ -40,7 +40,7 @@ function Footer() {
                 <p>Help</p>
               </span>
             </a>
-            <a href="#">
+            <a href="#home">
               <span className="link">
                 <span className="footer-icon">
                   <BiChat />
@@ -48,7 +48,7 @@ function Footer() {
                 <p>Chat</p>
               </span>
             </a>
-            <a href="#">
+            <a href="#home">
               <span className="link">
                 <span className="footer-icon">
                   <BiPhoneCall />
@@ -56,7 +56,7 @@ function Footer() {
                 <p>Call</p>
               </span>
             </a>
-            <a href="#">
+            <a href="#home">
               <span className="link">
                 <span className="footer-icon">
                   <HiMail />

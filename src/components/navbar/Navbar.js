@@ -28,7 +28,7 @@ function Navbar() {
           </div>
 
           {/* navigation links */}
-          <menu className="">
+          <menu>
             <ul className="nav__links rou">
               {navbarLinks.map((link) => {
                 const { id, label, url } = link;
