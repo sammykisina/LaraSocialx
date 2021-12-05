@@ -60,7 +60,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="floating-icon mt-7 md:-mt-32 flex justify-center">
+      <div className="floating-icon mt-7 md:-mt-28 flex justify-center">
         <span className="bg-blue-500 w-16 h-16 rounded-full flex justify-center items-center  cursor-pointer">
           <a href="#features" className="">
             <CgMouse className="text-white text-2xl mouse" />
